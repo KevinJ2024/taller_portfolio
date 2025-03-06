@@ -6,3 +6,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
+#header-text{
+    color: white;
+}
