@@ -1,0 +1,9 @@
+#title{
+    font-size: 2rem;
+}
+
+Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,8 +1,10 @@
-#text{
+.NavLink{
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
     text-decoration: none;
     color: white;
 }
-
+.NavLink:hover {
+    color: #FFD700; /* Un dorado suave */
+    text-decoration: underline;
+  }

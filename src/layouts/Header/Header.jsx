@@ -8,11 +8,11 @@ export const Header = () => {
     <header>
         <h1 id='header-text'>Portfolio</h1>  
         <NavBar>
-          <ItemNavBar content='Home' route={'/Home'} />
-          <ItemNavBar content='Technical Skills' route={'/Home'} />
-          <ItemNavBar content='Social Skills' route={'/Home'} />
-          <ItemNavBar content='Professional Experience' route={'/Home'} />
-          <ItemNavBar content='Studies' route={'/Home'} />
+          <ItemNavBar content='Home' route={'/'} />
+          <ItemNavBar content='Technical Skills' route={'/TechnicalSkills'} />
+          <ItemNavBar content='Social Skills' route={'/SocialSkills'} />
+          <ItemNavBar content='Professional Experience' route={'/ProfessionalExperience'} />
+          <ItemNavBar content='Studies' route={'/Studies'} />
         </NavBar>
     </header>
   )
