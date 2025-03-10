@@ -11,7 +11,7 @@ export const Studies = () => {
         </div>
         <div>
             <h2>• Currently studying for a Bachelor's degree in Physics</h2>
-            <h2>University of Quindío.</h2>
+            <h2>University of Quindío</h2>
         </div>
         <div>
             <h2>• Currently studying a Technologist degree in Software Analysis and Development.</h2>

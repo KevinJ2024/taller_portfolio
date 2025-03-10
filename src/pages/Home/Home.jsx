@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <Main>
       <div id='image-container'>
-        <img src="src\assets\images\ImageHome.png" alt="personal-image" id="personal-image"/>
+        <img src="src\assets\images\bello.PNG" alt="personal-image" id="personal-image"/>
       </div>
       <TextBox>
         <h2>My name is Kevin Julian Alvarez Ramirez</h2>
@@ -15,7 +15,7 @@ export const Home = () => {
         <h2>I'm a backend developer with 1 year of experience in javascript.
         I particularly like database management</h2>
         </div>
-        <h2>My English level is B1</h2>
+        <h2>My English level is B1 intermediate</h2>
       </TextBox>
     </Main>
   )
