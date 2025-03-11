@@ -14,7 +14,6 @@ export function App() {
       <div className="main-container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
           <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
           <Route path="/SocialSkills" element={<SocialSkills />} />
           <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
