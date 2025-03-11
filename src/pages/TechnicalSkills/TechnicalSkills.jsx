@@ -1,4 +1,3 @@
-import { BsJustify } from "react-icons/bs"
 import { TextBox } from "../../components/TextBox/TextBox"
 import { Main } from "../../layouts/Main/Main"
 import './TechnicalSkills.css'
@@ -7,7 +6,7 @@ export const TechnicalSkills = () => {
   return (
     <Main style={{gap: '0', justigyContent: 'center', flexDirection: 'column'}}>
       <div id='image-container2'>
-        <img id='logos' src='src\assets\images\logos.png' alt="logos"></img>
+        <img id='logos' src='../../assets/images/logos.png' alt="logos"></img>
       </div>
       <TextBox>
         <h2>• Web Development: Client-side applications.</h2>
