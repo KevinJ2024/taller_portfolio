@@ -8,19 +8,19 @@ import { ProfessionalExperience } from "./pages/ProfessionalExperience/Professio
 import { Studies } from "./pages/Studies/Studies.jsx"
 
 export function App() {
-
   return (
     <>
       <Header />
+      <div className="main-container">
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
           <Route path="/SocialSkills" element={<SocialSkills />} />
           <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
           <Route path="/Studies" element={<Studies />} />
         </Routes>
+      </div>
       <Footer />
     </>
-  )
+  );
 }
-
