@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <Main>
       <div id='image-container'>
-        <img src='../../assets/images/handsome.PNG' alt="personal-image" id="personal-image"/>
+        <img src='../src/assets/images/handsome.PNG' alt="personal-image" id="personal-image"/>
       </div>
       <TextBox>
         <h2>My name is Kevin Julian Alvarez Ramirez</h2>
