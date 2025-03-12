@@ -1,9 +1,9 @@
 import { TextBox } from "../../components/TextBox/TextBox"
 import { Main } from "../../layouts/Main/Main"
 import "./Studies.css"
-import  logoCiudad  from "../../assets/images/logoCiudad.PNG";
-import  logoQuindio  from "../../assets/images/logoQuindio.PNG";
-import  logoSena from "../../assets/images/logoSena.PNG";
+import  logoCiudad  from "../../assets/images/logoCiudad.png";
+import  logoQuindio  from "../../assets/images/logoQuindio.png";
+import  logoSena from "../../assets/images/logoSena.png";
 
 export const Studies = () => {
   return (

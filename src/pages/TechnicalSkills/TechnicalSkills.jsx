@@ -1,7 +1,7 @@
 import { TextBox } from "../../components/TextBox/TextBox"
 import { Main } from "../../layouts/Main/Main"
 import './TechnicalSkills.css'
-import logos from '../../assets/images/logos.PNG'
+import logos from '../../assets/images/logos.png'
 
 export const TechnicalSkills = () => {
   return (
