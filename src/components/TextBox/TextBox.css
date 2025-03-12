@@ -1,9 +1,10 @@
 .TextBox{
-    font-size: 80%;
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: white;
+    color: #2C3E50;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }

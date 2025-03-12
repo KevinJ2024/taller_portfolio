@@ -4,9 +4,11 @@ import './TechnicalSkills.css'
 
 export const TechnicalSkills = () => {
   return (
-    <Main>
+    <Main style={{gap: '0', justigyContent: 'center', flexDirection: 'column'}}>
+      <div id='image-container2'>
+        <img id='logos' src='../src/assets/images/logos.png' alt="logos"></img>
+      </div>
       <TextBox>
-        <h2>• Education and Leadership: Scheduling, Preparing, and Conducting Conferences.</h2>
         <h2>• Web Development: Client-side applications.</h2>
         <h2>• Frontend: React, HTML, CSS.</h2>
         <h2>• Backend: Java, JavaScript, C#.</h2>

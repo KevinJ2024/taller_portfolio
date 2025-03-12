@@ -2,8 +2,12 @@
     font-size: 2rem;
 }
 
-Main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#image-container2{
+    width: 20rem;
+    height: auto;
+}
+
+#logos{
+    width: 100%;
+    height: 100%;
 }

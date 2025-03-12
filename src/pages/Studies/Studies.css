@@ -1,0 +1,12 @@
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    margin-left: 1rem;
+    width: 5rem;
+    height: auto;
+}

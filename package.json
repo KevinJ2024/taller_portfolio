@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build", 
+  "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
@@ -26,5 +29,6 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
-  }
+  },
+  "homepage": "https://kevinj2024.github.io/taller_portfolio/"
 }

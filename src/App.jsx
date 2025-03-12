@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, Navigate } from "react-router-dom"
 import { Header } from "./layouts/Header/Header.jsx"
 import { Footer } from "./layouts/Footer/Footer.jsx"
 import { Home } from "./pages/Home/Home.jsx"
@@ -8,19 +8,21 @@ import { ProfessionalExperience } from "./pages/ProfessionalExperience/Professio
 import { Studies } from "./pages/Studies/Studies.jsx"
 
 export function App() {
-
   return (
     <>
       <Header />
+      <div className="main-container">
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
-          <Route path="/SocialSkills" element={<SocialSkills />} />
-          <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
-          <Route path="/Studies" element={<Studies />} />
+        <Route path="/" element={<Navigate to="/taller_portfolio/Home" />} />
+          
+          <Route path="/taller_portfolio/Home" element={<Home />} />
+          <Route path="/taller_portfolio/TechnicalSkills" element={<TechnicalSkills />} />
+          <Route path="/taller_portfolio/SocialSkills" element={<SocialSkills />} />
+          <Route path="/taller_portfolio/ProfessionalExperience" element={<ProfessionalExperience />} />
+          <Route path="/taller_portfolio/Studies" element={<Studies />} />
         </Routes>
+      </div>
       <Footer />
     </>
-  )
+  );
 }
-

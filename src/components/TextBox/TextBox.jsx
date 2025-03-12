@@ -1,8 +1,8 @@
 import './TextBox.css'
 
-export const TextBox = ({children}) => {
+export const TextBox = ({children,style}) => {
     return (
-        <div className='TextBox'>
+        <div className='TextBox' style={style}>
             {children}
         </div>
     )

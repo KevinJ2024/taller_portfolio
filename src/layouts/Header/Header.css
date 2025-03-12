@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: 8rem;
-    background-color: #8B0000;
+    background-color: #EDEDED;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -9,6 +9,6 @@ header{
 }
 
 #header-text{
-    color: white;
+    color: #2C3E50;
     font-size: 1.5rem;
 }
