@@ -1,12 +1,13 @@
 import { TextBox } from "../../components/TextBox/TextBox"
 import { Main } from "../../layouts/Main/Main"
 import './TechnicalSkills.css'
+import logos from '../../assets/images/logos.PNG'
 
 export const TechnicalSkills = () => {
   return (
     <Main style={{gap: '0', justigyContent: 'center', flexDirection: 'column'}}>
       <div id='image-container2'>
-        <img id='logos' src='../taller_portfolio/src/assets/images/logos.png' alt="logos"></img>
+        <img id='logos' src={logos} alt="logos"></img>
       </div>
       <TextBox>
         <h2>• Web Development: Client-side applications.</h2>

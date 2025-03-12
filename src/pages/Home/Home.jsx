@@ -1,12 +1,13 @@
 import { TextBox } from "../../components/TextBox/TextBox"
 import { Main } from "../../layouts/Main/Main"
 import './Home.css'
+import handsome from "../../assets/images/handsome.PNG"
 
 export const Home = () => {
   return (
     <Main>
       <div id='image-container'>
-        <img src='../taller_portfolio/src/assets/images/handsome.PNG' alt="personal-image" id="personal-image"/>
+        <img src={handsome} alt="personal-image" id="personal-image"/>
       </div>
       <TextBox>
         <h2>My name is Kevin Julian Alvarez Ramirez</h2>
