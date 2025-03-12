@@ -13,13 +13,12 @@ export function App() {
       <Header />
       <div className="main-container">
         <Routes>
-        <Route path="/" element={<Navigate to="/taller_portfolio/Home" />} />
-          
-          <Route path="/taller_portfolio/Home" element={<Home />} />
-          <Route path="/taller_portfolio/TechnicalSkills" element={<TechnicalSkills />} />
-          <Route path="/taller_portfolio/SocialSkills" element={<SocialSkills />} />
-          <Route path="/taller_portfolio/ProfessionalExperience" element={<ProfessionalExperience />} />
-          <Route path="/taller_portfolio/Studies" element={<Studies />} />
+          <Route path="/" element={<Navigate to="/Home" />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
+          <Route path="/SocialSkills" element={<SocialSkills />} />
+          <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
+          <Route path="/Studies" element={<Studies />} />
         </Routes>
       </div>
       <Footer />
