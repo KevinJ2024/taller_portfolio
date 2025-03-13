@@ -10,3 +10,10 @@
     width: 5rem;
     height: auto;
 }
+
+.studies-box{
+    width: 20rem;
+    border-radius: 20px;
+    border: 1px solid #2C3E50;
+    padding: 0.5rem;
+}

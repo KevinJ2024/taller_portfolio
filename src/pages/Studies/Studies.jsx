@@ -8,22 +8,22 @@ import  logoSena from "../../assets/images/logoSena.png";
 export const Studies = () => {
   return (
     <Main>
-      <TextBox>
-        <div>
+      <TextBox style={{gap: "2rem"}}>
+        <div className="studies-box">
             <h2>• High School Graduate & Software Programming Technician</h2>
             <div className="logo-box">
               <h2>Ciudad Dorada Educational Institution</h2>
               <img className="logos" src={logoCiudad} alt="logo-ciudad"></img>
             </div>
         </div>
-        <div>
+        <div className="studies-box">
             <h2>• Currently studying for a Bachelor's degree in Physics</h2>
             <div className="logo-box">
               <h2>University of Quindío</h2>
               <img className="logos" src={logoQuindio} alt="logo-quindio"></img>
             </div>
         </div>
-        <div>
+        <div className="studies-box">
             <h2>• Currently studying a Technologist degree in Software Analysis and Development.</h2>
             <div className="logo-box">
               <h2>Sena Centro de comercio y Turismo</h2>

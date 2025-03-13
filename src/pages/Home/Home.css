@@ -11,4 +11,22 @@
 
 #description{
     width: 20rem;
+    color: white;
+}
+
+#name{
+    max-width: 25rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#city{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+#english{
+    max-width: 360px;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.685);
 }

@@ -6,7 +6,7 @@ import './Header.css'
 export const Header = () => {
   return (
     <header>
-        <h1 id='header-text'>Portfolio</h1>  
+        <h1 id='header-text'>Portfolio 💡</h1>  
         <NavBar>
           <ItemNavBar content='Home' route={'/Home'} />
           <ItemNavBar content='Technical Skills' route={'/TechnicalSkills'} />
